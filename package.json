@@ -1,0 +1,8 @@
+{
+    "name": "demo-pluggeding-plugin",
+    "description": "Minimal Pluggeding System Demonstration",
+    "permissions": {
+        "required": [],
+        "optional": []
+    }
+}
