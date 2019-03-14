@@ -1,8 +1,23 @@
 {
     "name": "demo-pluggeding-plugin",
     "description": "Minimal Pluggeding System Demonstration",
-    "permissions": {
-        "required": [],
-        "optional": []
-    }
+    "version": "0.1.0",
+    "pluggeding": {
+        "store": "1.0.0",
+        "url": "https://iconic-dreams.github.io/demo-pluggeding-plugin",
+        "icon": "https://iconic-dreams.github.io/demo-pluggeding-plugin/assets/pluggeding-demo-icon.png",
+        "cover": "https://iconic-dreams.github.io/demo-pluggeding-plugin/assets/pluggeding-demo-background.png",
+        "source": "https://iconic-dreams.github.io/demo-pluggeding-plugin/index.js",
+        "sri": "sha384-1EXjE2iDlOotVO5KzwJzq+SisSzhJrYtx4jq4/NUqqQ3XUGKMqejohjEXfvhXUqa",
+        "permissions": {
+            "required": [],
+            "optional": []
+        },
+        "asservice": "visible",
+        "container": {
+            "preferred": "drawer",
+            "launcher": "event"
+        }
+    },
+    "dependencies": {}
 }
